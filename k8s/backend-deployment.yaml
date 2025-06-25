@@ -1,0 +1,106 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: backend-deployment
+  namespace: myroutemap
+  labels:
+    app: backend
+    version: v1
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: backend
+  template:
+    metadata:
+      labels:
+        app: backend
+        version: v1
+      annotations:
+        prometheus.io/scrape: "true"
+        prometheus.io/port: "5000"
+        prometheus.io/path: "/api/metrics"
+    spec:
+      containers:
+      - name: backend
+        image: your-registry.com/myroutemap-backend:latest
+        ports:
+        - containerPort: 5000
+        envFrom:
+        - configMapRef:
+            name: myroutemap-config
+        - secretRef:
+            name: myroutemap-secrets
+        resources:
+          requests:
+            memory: "256Mi"
+            cpu: "200m"
+          limits:
+            memory: "512Mi"
+            cpu: "500m"
+        livenessProbe:
+          httpGet:
+            path: /api/health
+            port: 5000
+          initialDelaySeconds: 30
+          periodSeconds: 10
+        readinessProbe:
+          httpGet:
+            path: /api/health
+            port: 5000
+          initialDelaySeconds: 10
+          periodSeconds: 5
+        volumeMounts:
+        - name: uploads
+          mountPath: /app/uploads
+      volumes:
+      - name: uploads
+        persistentVolumeClaim:
+          claimName: uploads-pvc
+      imagePullSecrets:
+      - name: registry-secret
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: backend-service
+  namespace: myroutemap
+  labels:
+    app: backend
+spec:
+  selector:
+    app: backend
+  ports:
+  - protocol: TCP
+    port: 5000
+    targetPort: 5000
+  type: ClusterIP
+
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: backend-ingress
+  namespace: myroutemap
+  annotations:
+    kubernetes.io/ingress.class: nginx
+    cert-manager.io/cluster-issuer: letsencrypt-prod
+    nginx.ingress.kubernetes.io/rate-limit: "200"
+    nginx.ingress.kubernetes.io/rate-limit-window: "1m"
+spec:
+  tls:
+  - hosts:
+    - api.myroutemap.com
+    secretName: api-myroutemap-tls
+  rules:
+  - host: api.myroutemap.com
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: backend-service
+            port:
+              number: 5000
