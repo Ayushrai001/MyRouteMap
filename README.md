@@ -2,6 +2,11 @@
 
 A comprehensive MERN stack travel website with modern features, CI/CD pipeline, and production-ready infrastructure.
 
+**Created and Owned by: Ayush Kumar Rai**
+- Email: ayush@myroutemap.com
+- Website: https://myroutemap.com
+- GitHub: @ayushkumarrai
+
 ## 🚀 Features
 
 ### Frontend Features
@@ -76,7 +81,7 @@ A comprehensive MERN stack travel website with modern features, CI/CD pipeline, 
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/myroutemap.git
+   git clone https://github.com/ayushkumarrai/myroutemap.git
    cd myroutemap
    ```
 
@@ -161,6 +166,8 @@ myroutemap/
 ├── docker-compose.prod.yml      # Production compose file
 ├── Dockerfile                   # Frontend Dockerfile
 ├── Jenkinsfile                  # CI/CD pipeline
+├── LICENSE                      # MIT License
+├── COPYRIGHT                    # Copyright notice
 └── README.md
 ```
 
@@ -286,11 +293,7 @@ npm run test:e2e
 
 ## 🤝 Contributing
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
 
 ### Development Guidelines
 - Follow TypeScript best practices
@@ -356,8 +359,8 @@ npm run test:e2e
 
 For support and questions:
 - Create an issue on GitHub
-- Email: support@myroutemap.com
-- Documentation: https://docs.myroutemap.com
+- Email: ayush@myroutemap.com
+- Website: https://myroutemap.com
 
 ## 📜 License
 
@@ -371,6 +374,17 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Kubernetes community for orchestration
 - All open-source contributors
 
+## 👨‍💻 About the Creator
+
+**Ayush Kumar Rai** is a full-stack developer passionate about creating innovative travel solutions. MyRouteMap represents his vision of making travel planning and booking accessible to everyone.
+
+Connect with Ayush:
+- Email: ayush@myroutemap.com
+- LinkedIn: https://linkedin.com/in/ayushkumarrai
+- GitHub: https://github.com/ayushkumarrai
+
 ---
 
 **MyRouteMap** - Discover Your Next Adventure! 🌍✈️
+
+*Created with ❤️ by Ayush Kumar Rai*

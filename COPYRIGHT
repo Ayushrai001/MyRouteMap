@@ -1,0 +1,91 @@
+MyRouteMap - Travel Booking Platform
+Copyright Notice and Ownership Declaration
+
+================================================================================
+
+Copyright (c) 2024 Ayush Kumar Rai. All rights reserved.
+
+OWNER INFORMATION:
+------------------
+Name: Ayush Kumar Rai
+Role: Creator, Owner, and Lead Developer
+Email: ayush@myroutemap.com
+Website: https://myroutemap.com
+
+PROJECT DETAILS:
+-----------------
+Project Name: MyRouteMap
+Description: Comprehensive MERN Stack Travel Booking Platform
+Repository: https://github.com/ayushkumarrai/myroutemap
+License: MIT License (see LICENSE file)
+
+INTELLECTUAL PROPERTY RIGHTS:
+------------------------------
+This software and associated documentation files (the "Software") are the 
+intellectual property of Ayush Kumar Rai. The Software includes but is not 
+limited to:
+
+1. Source code (Frontend and Backend)
+2. Database schemas and models
+3. API designs and implementations
+4. User interface designs and components
+5. Documentation and guides
+6. Configuration files and scripts
+7. Docker and Kubernetes configurations
+8. CI/CD pipeline configurations
+9. Monitoring and logging setups
+
+TRADEMARK NOTICE:
+-----------------
+"MyRouteMap" and associated logos, branding elements, and design marks are 
+trademarks of Ayush Kumar Rai. Use of these trademarks requires explicit 
+written permission from the owner.
+
+TECHNOLOGY STACK:
+-----------------
+Frontend: React.js, TypeScript, Tailwind CSS, Framer Motion
+Backend: Node.js, Express.js, MongoDB, Mongoose
+Authentication: JWT, bcrypt
+Maps: Leaflet, React-Leaflet
+Infrastructure: Docker, Kubernetes, Jenkins
+Monitoring: Prometheus, Grafana, ELK Stack
+Cloud Services: Cloudinary, Email Services
+
+THIRD-PARTY COMPONENTS:
+-----------------------
+This software incorporates various open-source libraries and frameworks, 
+each governed by their respective licenses. See package.json files for 
+complete dependency information.
+
+USAGE RIGHTS:
+-------------
+This software is licensed under the MIT License. Users are granted rights 
+to use, modify, and distribute the software subject to the terms and 
+conditions specified in the LICENSE file.
+
+ATTRIBUTION REQUIREMENT:
+------------------------
+Any use, modification, or distribution of this software must include 
+proper attribution to Ayush Kumar Rai as the original creator and owner.
+
+CONTACT INFORMATION:
+--------------------
+For licensing inquiries, business partnerships, or technical support:
+
+Email: ayush@myroutemap.com
+Website: https://myroutemap.com
+LinkedIn: https://linkedin.com/in/ayushkumarrai
+GitHub: https://github.com/ayushkumarrai
+
+DISCLAIMER:
+-----------
+This software is provided "as is" without warranty of any kind. The owner 
+shall not be liable for any damages arising from the use of this software.
+
+================================================================================
+
+Last Updated: December 2024
+Version: 1.0.0
+
+Ayush Kumar Rai
+Creator and Owner, MyRouteMap

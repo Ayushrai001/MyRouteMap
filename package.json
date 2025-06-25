@@ -3,6 +3,32 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
+  "author": {
+    "name": "Ayush Kumar Rai",
+    "email": "ayush@myroutemap.com",
+    "url": "https://myroutemap.com"
+  },
+  "description": "MyRouteMap - Comprehensive MERN Stack Travel Booking Platform",
+  "keywords": [
+    "travel",
+    "booking",
+    "tours",
+    "mern-stack",
+    "react",
+    "nodejs",
+    "mongodb",
+    "travel-website"
+  ],
+  "homepage": "https://myroutemap.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ayushkumarrai/myroutemap.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ayushkumarrai/myroutemap/issues",
+    "email": "ayush@myroutemap.com"
+  },
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
