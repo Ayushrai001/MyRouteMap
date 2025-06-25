@@ -4,8 +4,8 @@ A comprehensive MERN stack travel website with modern features, CI/CD pipeline, 
 
 **Created and Owned by: Ayush Kumar Rai**
 - Email: ayush@myroutemap.com
-- Website: https://myroutemap.com
-- GitHub: @ayushkumarrai
+- Website: https://my-route-map.social
+- GitHub: @Ayushrai001
 
 ## 🚀 Features
 
@@ -81,7 +81,7 @@ A comprehensive MERN stack travel website with modern features, CI/CD pipeline, 
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/ayushkumarrai/myroutemap.git
+   git clone https://github.com/Ayushrai001/myroutemap.git
    cd myroutemap
    ```
 
