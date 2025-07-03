@@ -3,7 +3,7 @@
 A comprehensive MERN stack travel website with modern features, CI/CD pipeline, and production-ready infrastructure.
 
 **Created and Owned by: Ayush Kumar Rai**
-- Email: ayush@myroutemap.com
+- Email: raiayush021@gmail.com
 - Website: https://my-route-map.social
 - GitHub: @Ayushrai001
 
@@ -379,9 +379,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Ayush Kumar Rai** is a full-stack developer passionate about creating innovative travel solutions. MyRouteMap represents his vision of making travel planning and booking accessible to everyone.
 
 Connect with Ayush:
-- Email: ayush@myroutemap.com
-- LinkedIn: https://linkedin.com/in/ayushkumarrai
-- GitHub: https://github.com/ayushkumarrai
+- Email: raiayush021@gmail.com
+- LinkedIn: https://www.linkedin.com/in/helloayushrai/
+- GitHub: https://github.com/Ayushrai001
 
 ---
 
