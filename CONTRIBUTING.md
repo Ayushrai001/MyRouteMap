@@ -5,8 +5,8 @@ Thank you for your interest in contributing to MyRouteMap! This document provide
 ## Project Owner
 
 **Ayush Kumar Rai** - Creator and Owner of MyRouteMap
-- Email: ayush@myroutemap.com
-- GitHub: @ayushkumarrai
+- Email: raiayush021@gmail.com
+- GitHub: @Ayushrai001
 
 ## Code of Conduct
 
